@@ -1,0 +1,35 @@
+@charset 'UTF-8';
+
+dl>div {
+  padding: 15px;
+  background: #e8e8e8;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+dl>div:hover {
+  cursor: pointer;
+}
+
+dl>div dd {
+  display: none;
+  font-size: 14px;
+  margin: 5px 0 0 ;
+}
+
+dl>div.open dd {
+  display: block;
+  animation: fadeIn .8s;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+dl>div:last-child {
+  margin-bottom: 0;
+}
