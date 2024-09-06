@@ -1,0 +1,29 @@
+@charset'UTF-8';
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 30px;
+  height: 100vh;
+  background: #36454F;
+}
+
+.swiper {
+  width: 800px;
+  max-width: 100%;
+}
+
+
+.swiper-slide img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;            
+  margin: 0 auto;            
+}
+
+.js-sub-swiper .swiper-slide img:hover {
+  cursor: pointer;
+}
+
