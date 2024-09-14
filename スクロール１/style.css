@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container p {
+  line-height: 12;
+  background: #eee;
+}
+
+#goTop {
+  visibility: hidden;
+  padding: 20px;
+  background: rgb(121, 168, 239);
+  color: #333;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: all ease .3s;
+}
+
+#goTop.visible {
+  visibility: visible;
+  opacity: 1;
+}
